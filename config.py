@@ -1,6 +1,6 @@
 # Интервал задержки между играми в секундах
-CHECK_INTERVAL_MIN = 4
-CHECK_INTERVAL_MAX = 8
+CHECK_INTERVAL_MIN = 0.1
+CHECK_INTERVAL_MAX = 0.3
 
 # Порог совпадения шаблона кнопки "Старт". Можно снизить, если игры не начинаются автоматически.
 THRESHOLD = 0.8
