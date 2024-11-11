@@ -166,7 +166,7 @@ class AutoClicker:
                 time.sleep(0.1)
 
     def is_game_over(self):
-        game_duration = 30 + self.freeze_count * 3
+        game_duration = 1 + self.freeze_count * 3
         current_time = time.time()
         if self.game_start_time and current_time - self.game_start_time >= game_duration - 0.5:
             return True
